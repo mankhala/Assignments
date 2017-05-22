@@ -1,0 +1,124 @@
+
+/* Head section*/
+header{
+	background: rgba(50, 100, 0, 0.8) url("../images/flywheel.jpg");
+	text-transform: uppercase;
+	/*padding-left: 24%;
+	padding-bottom: 5px;*/
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+}
+
+h1 {
+	color: rgba(38, 7, 39, 0.7);
+	text-align: center;
+	background-color: rgba(0,0,0, 0.2);
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+}
+
+/* generic section*/
+
+body{
+	margin: 0 10% 10% 15%;
+	width: 69%;
+}
+
+main {
+	border-right:solid 10px;
+	border-left: solid 10px;
+	border-bottom: solid 10px;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
+	border-color: rgba(140, 186, 182, 1);
+
+}
+
+a {
+	text-align: center;
+}
+
+h2 {
+	color: rgba(38, 7, 39, 0.9);
+	font-size: 150%;
+	padding-left: 2%;
+}
+
+li {
+	list-style-type: square;
+	padding-bottom: 10px;
+}
+
+section {
+	background-color: rgba(0,0,0,0);
+	float: right;
+	margin: 5px 38px 15px ;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	border-top: solid;
+	border-bottom: solid;
+	border-radius: 40px;
+}
+
+img {
+	float: left;
+	display: block;
+	width: 87.5%;
+	padding: 15px;
+	background-color: rgba(140, 186, 182, 0.62);
+}
+
+/*specific section*/
+
+li a {
+	background-color: rgba(140, 186, 182, 0.62);
+	padding: 5px 5px 1px;
+	border-radius: 10px;
+	color: rgba(50,100,0,0.8);
+}
+
+nav a {
+	border-radius: 10px;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 5px 5% 5px 5%;
+	background-color: rgba(82, 186, 64, 0.62);
+}
+
+nav a:hover {
+	background-color: rgba(140, 186, 182, 0.62);
+	color: rgba(0,0,0,1);
+}
+
+section > h2:first-child{
+	color: rgba(38, 7, 39, 0.9);
+
+}
+
+/* class section */
+
+.active {
+	padding: 10px  25px 10px 25px;
+	color: rgba(74, 186, 115, 0.62);
+	background-color: rgba(50,100,0,0.8);
+
+}
+
+.left{
+	display: inline-block;
+	width: 26%;
+	border-bottom-left-radius: 40px;
+	border-right:solid;
+	border-color: rgba(140, 186, 182, 0.62);
+}
+
+.right {
+	display: inline-block;
+	width: 64%;
+}
+
+
